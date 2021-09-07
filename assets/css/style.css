@@ -1,0 +1,42 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+}
+h1,h2,h3,h4,h5{
+  margin:0;
+  padding:0;
+}
+.italic{
+  font-family: "FC-Friday-Italic";
+}
+*{
+  font-family: "FC-Friday";
+}
+
+@font-face {
+  font-family: "FC-Friday";
+  src: url("../fonts/FC-Friday/FC-Friday-Medium.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "FC-Friday-Italic";
+  src: url("../fonts/FC-Friday/FC-Friday-Medium-Italic.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.gradient-background{
+  background: #3D1B6C;
+  background: -webkit-linear-gradient(top right, #3D1B6C, #C62A90);
+  background: -moz-linear-gradient(top right, #3D1B6C, #C62A90);
+  background: linear-gradient(to bottom left, #3D1B6C, #C62A90);
+  background-size: cover;
+  background-attachment: fixed;
+  color:white;
+}
+  
