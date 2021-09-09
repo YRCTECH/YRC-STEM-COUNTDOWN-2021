@@ -31,10 +31,8 @@ h1,h2,h3,h4,h5{
 }
 
 .gradient-background{
-  background: #3D1B6C;
-  background: -webkit-linear-gradient(top right, #3D1B6C, #C62A90);
-  background: -moz-linear-gradient(top right, #3D1B6C, #C62A90);
-  background: linear-gradient(to bottom left, #3D1B6C, #C62A90);
+  background: rgb(240,135,227);
+  background: linear-gradient(90deg, rgba(240,135,227,1) 0%, rgba(246,98,134,1) 100%);
   background-size: cover;
   background-attachment: fixed;
   color:white;
